@@ -1,3 +1,5 @@
+package Principal;
+
 import javax.swing.*;
 import java.util.Scanner;
 
@@ -23,15 +25,15 @@ public class Principal {
 
         String menu = """
                 \n*** A que divisas quieres hacer la conversión ***\n
-                1: Won surcoreano (KRW) - Dólar de los Estados Unidos (USD)
-                2: Rublo ruso (RUB) - Ariary malgache (MGA)
-                3: Riyal catarí (QAR) - Peso argentino (ARS)
-                4: Baht tailandés (THB) - Grivna ucraniana (UAH)
-                5: Rand sudafricano (ZAR) - Riyal saudí (SAR)
-                6: Rupia india (INR) - Gourde haitiano (HTG)
-                7: Dolar de Nueva Zelanda (NZD) - Zloty polaco (PLN)
-                8: Yen japonés (JPY) - Corona islandesa (ISK)
-                9: Salir
+                1. Won surcoreano (KRW)         ->  Dólar de los Estados Unidos (USD)
+                2. Rublo ruso (RUB)             ->  Ariary malgache (MGA)
+                3. Riyal catarí (QAR)           ->  Peso argentino (ARS)
+                4. Baht tailandés (THB)         ->  Grivna ucraniana (UAH)
+                5. Rand sudafricano (ZAR)       ->  Riyal saudí (SAR)
+                6. Rupia india (INR)            ->  Gourde haitiano (HTG)
+                7. Dolar de Nueva Zelanda (NZD) ->  Zloty polaco (PLN)
+                8. Yen japonés (JPY)            ->  Corona islandesa (ISK)
+                9. Salir
                 """;
 
         //Scanner teclado = new Scanner(System.in);
