@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d46d7e1d-cdfa-4ccb-a7ca-45df937d0c2e" name="Changes" comment="- Reorganización de carpetas&#10;- Comunicacion con API">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/almintaro/com/aluracursos/conversordemonedas/principal/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/almintaro/com/aluracursos/conversordemonedas/procesos/Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conversor-de-monedas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/conversor-de-monedas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modelos/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/almintaro/com/aluracursos/conversordemonedas/modelos/Moneda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/almintaro/com/aluracursos/conversordemonedas/calculos/Conversor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/almintaro/com/aluracursos/conversordemonedas/procesos/Conversor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/almintaro/com/aluracursos/conversordemonedas/modelos/Divisas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/almintaro/com/aluracursos/conversordemonedas/modelos/Divisas.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2fcGcc38fGwgmpGqgiXTzdZCfIw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Archive/DEx/Archive/ORACLE/gson-2.10.1.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
+    ]
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d46d7e1d-cdfa-4ccb-a7ca-45df937d0c2e" name="Changes" comment="" />
+      <created>1714093034497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714093034497</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Generación del menu">
+      <option name="closed" value="true" />
+      <created>1714222299453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714222299453</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Actualización del menu&#10;- Calsificación de opciones">
+      <option name="closed" value="true" />
+      <created>1714227757386</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714227757386</updated>
+    </task>
+    <task id="LOCAL-00003" summary="getters y setters de la clase madre">
+      <option name="closed" value="true" />
+      <created>1714249368138</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714249368138</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- Separacion por carpetas&#10;- Getters y setters clase hija">
+      <option name="closed" value="true" />
+      <created>1714294044253</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714294044253</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- Reorganización de carpetas&#10;- Comunicacion con API">
+      <option name="closed" value="true" />
+      <created>1714438783687</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714438783687</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Generación del menu" />
+    <MESSAGE value="- Actualización del menu&#10;- Calsificación de opciones" />
+    <MESSAGE value="getters y setters de la clase madre" />
+    <MESSAGE value="- Separacion por carpetas&#10;- Getters y setters clase hija" />
+    <MESSAGE value="- Reorganización de carpetas&#10;- Comunicacion con API" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Reorganización de carpetas&#10;- Comunicacion con API" />
+  </component>
+</project>

@@ -1,29 +1,18 @@
 package almintaro.com.aluracursos.conversordemonedas.modelos;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Divisas extends Moneda {
-    private double tasaDeCambio =2;
+
     private String paisDeOrigen;
 
     // No se si estas estaran
-    private int cantidadParaCambiar = 2;
-    //private double valorCambiado = 0;
+    private int cantidadParaCambiar;
+    private double valorCambiado;
 
-    public double getTasaDeCambio() {
-        return tasaDeCambio;
-    }
-
-    // quitar
-    public void setTasaDeCambio(double tasaDeCambio) {
-        this.tasaDeCambio = tasaDeCambio;
-    }
 
     public String getPaisDeOrigen() {
         return paisDeOrigen;
-    }
-
-    //quitar
-    public void setPaisDeOrigen(String paisDeOrigen) {
-        this.paisDeOrigen = paisDeOrigen;
     }
 
     public int getCantidadParaCambiar() {
@@ -34,4 +23,11 @@ public class Divisas extends Moneda {
         this.cantidadParaCambiar = cantidadParaCambiar;
     }
 
+    public double getValorCambiado() {
+        return valorCambiado;
+    }
+
+    public void setValorCambiado(double valorCambiado) {
+        this.valorCambiado = valorCambiado;
+    }
 }
